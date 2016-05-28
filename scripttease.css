@@ -31,9 +31,14 @@ svg path {
 }
 
 .scaling-svg {
- position: relative; 
+ position: absolute; 
  height: 100%; 
  width: 100%; 
  left: 0; 
  top: 0;
+}
+
+.banner-container {
+  width: 40%;
+  margin: auto;
 }
