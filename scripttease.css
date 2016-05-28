@@ -21,6 +21,7 @@ svg path {
 }
 
 .scaling-svg-container {
+ background: url("rainbanner.png") top center no-repeat;
  position: relative; 
  height: 0; 
  width: 100%; 
@@ -28,8 +29,9 @@ svg path {
  padding-bottom: 100%; 
  /* override this inline for aspect ratio other than square */
 }
+
 .scaling-svg {
- position: absolute; 
+ position: relative; 
  height: 100%; 
  width: 100%; 
  left: 0; 
