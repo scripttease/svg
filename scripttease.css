@@ -20,25 +20,28 @@ svg path {
   }
 }
 
-.scaling-svg-container {
- background: url("rainbanner.png") top center no-repeat;
- position: relative; 
- height: 0; 
- width: 100%; 
- padding: 0;
- padding-bottom: 100%; 
- /* override this inline for aspect ratio other than square */
-}
-
-.scaling-svg {
- position: absolute; 
- height: 100%; 
- width: 100%; 
- left: 0; 
- top: 0;
-}
-
 .banner-container {
-  width: 100%;
+  width: 60%;
   margin: auto;
 }
+
+.scaling-svg-container {
+ background: url("rainbanner.png") top center no-repeat;
+ width: 100%; 
+ background-size: cover;
+ height: 0; 
+ padding: 0; /*reset*/
+ padding-bottom: 56%; 
+ /* override this inline for aspect ratio other than square */
+ /* padding-bottom css tricks hack to preserve aspect ratio, background image height/width = 275/491=56% */
+}
+
+/* .scaling-svg { */
+/*  position: absolute; */ 
+/*  height: 100%; */ 
+/*  width: 100%; */ 
+/*  left: 0; */ 
+/*  top: 0; */
+/* } */
+
+
