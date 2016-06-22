@@ -1,0 +1,35 @@
+.line-one {
+  stroke: red;
+  fill: none;
+}
+
+.line-two {
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.line-three {
+  stroke: blue;
+  fill: none;
+}
+
+.line-four {
+  stroke: green;
+  fill: none;
+}
+
+.line-five {
+  stroke: yellow;
+  fill: none;
+}
+
+.line-six {
+  stroke: pink;
+  fill: none;
+}
+
+.line-seven {
+  stroke: purple;
+  fill: none;
+}
